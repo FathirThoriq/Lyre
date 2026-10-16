@@ -1,0 +1,26 @@
+# Rust build output
+/target
+**/*.rs.bk
+
+# Release artifacts
+*.tar.gz
+lyre
+lyre.exe
+
+# Local run noise (config dir contents, if the binary is ever run in-tree)
+lyre.log
+settings.json
+spotify_state.json
+spotify_trending_cache.json
+trending_cache.json
+cava.conf
+accounts/
+
+# Text captures from PTY test sessions
+captures/
+
+# Editor / OS noise
+.vscode/
+.idea/
+*.swp
+.DS_Store
